@@ -1,0 +1,83 @@
+/*
+Desafío de posicionamiento con CSS. Todo el trabajo debe hacerse en este archivo, por lo que si estás tocando cualquier otro
+archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
+*/
+
+/* Ejercicio 1: Centrar el texto en un span */
+
+/* Arrancaremos este ejercicio por ti */
+.contenedor__span_uno {
+    display: block;
+    text-align: center;
+}
+
+
+/* Ejercicio 2 */
+
+/* Acá va tu código */
+.titulo{
+    display: none;
+}
+
+
+/* Ejercicio 3 */
+
+/* Acá va tu código */
+.contenedor_objetivo__ejercicio_tres{
+    position: relative;
+    top: 100;
+    left: 200;
+}
+
+
+
+/* Ejercicio 4 */
+
+/* Acá va tu código */
+#ejercicioCuatro{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 7rem;
+}
+
+
+
+/* Ejercicio 5 */
+
+/* Acá va tu código */
+.contenedor__ejercicio_cinco{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+/* Ejercicio 6 */
+
+/* Acá va tu código */
+.contenedor__ejercicio_cinco span:first-of-type{
+    align-self: flex-end;
+}
+
+.contenedor__ejercicio_cinco span:last-of-type{
+    align-self: flex-start;
+}
+
+/* Ejercicio 7 */
+
+/* Acá va tu código */
+.contenedor__ejercicio_siete{
+    display: flex;
+    flex-direction: row;
+}
+
+.elementoUno{
+    align-self:flex-end;
+}
+
+.elementoTres{
+    align-self: flex-end;
+}
